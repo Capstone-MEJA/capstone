@@ -2,9 +2,9 @@
   "name": "capstone",
   "version": "1.0.0",
   "description": "",
-  "main": "./server/script.js",
+  "main": "./server/index.js",
   "scripts": {
-    "dev": "nodemon /server/script.js",
+    "dev": "nodemon /server/index.js",
     "seed": "node script/seed.js"
   },
   "keywords": [],
