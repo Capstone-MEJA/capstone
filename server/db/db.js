@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
 
-const db = mongoose.connect('mongodb://127.0.0.1:27017/maps')
+const db = mongoose.connect('mongodb://127.0.0.1:27017/memorymarker')
 
 module.exports = db
