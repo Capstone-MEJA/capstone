@@ -12,10 +12,10 @@ const userSchema = new mongoose.Schema({
     createdAt: {
         type: Date,
         immutable: true,
-        default: () => Date.now();
+        default: () => Date.now(),
     },
     posts: {
-        type: mongoose.Schema.Types.ObjectId,
+        type: [mongoose.Schema.Types.ObjectId],
         ref: "Post"
     }
 })
